@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (width < 500px) {
+    .main-container{
+        max-width: 100%;
+    }
+    .nav{
+     justify-content: flex-start;
+    }
+    .logo{
+        width: 100px;
+    }
+    .browser-container{
+        margin-left: 20px;
+        width: 16rem;
+    }
+    .search-icon{
+        width: 50px;
+        font-size: 15px;
+    }
+}

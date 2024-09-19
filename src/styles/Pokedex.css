@@ -1,0 +1,11 @@
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 80%;
+    background-color: #e6e6e6;
+    min-height: 89.5vh;
+    margin: auto;
+
+}
